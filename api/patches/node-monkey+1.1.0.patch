@@ -1,0 +1,10 @@
+diff --git a/node_modules/node-monkey/dist/index.html b/node_modules/node-monkey/dist/index.html
+new file mode 100644
+index 0000000..db5d82d
+--- /dev/null
++++ b/node_modules/node-monkey/dist/index.html
+@@ -0,0 +1,3 @@
++<!doctype html><html><head><script src="monkey.js"></script></head><body>Open your console to see output<script>;(function () {
++    monkey.init()
++  })()</script></body></html>
+\ No newline at end of file

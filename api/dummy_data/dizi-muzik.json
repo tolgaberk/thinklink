@@ -1,0 +1,146 @@
+{
+    "series": [
+        {
+            "title": "The Boys",
+            "genre": ["Action", "Comedy", "Crime"],
+            "image": "https://m.media-amazon.com/images/M/MV5BNGEyOGJiNWEtMTgwMi00ODU4LTlkMjItZWI4NjFmMzgxZGY2XkEyXkFqcGdeQXVyNjcyNjcyMzQ@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "creator": "Eric Kripke",
+            "imdb_score": "8.7"
+        },
+        {
+            "title": "Chernobyl",
+            "genre": ["Drama", "History", "Thriller"],
+            "image": "https://m.media-amazon.com/images/M/MV5BZGQ2YmMxZmEtYjI5OS00NzlkLTlkNTEtYWMyMzkyMzc2MDU5XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "creator": "Craig Mazin",
+            "imdb_score": "9.4"
+        },
+        {
+            "title": "Game of Thrones",
+            "genre": ["Action", "Adventure", "Drama"],
+            "image": "https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_UY268_CR7,0,182,268_AL_.jpg",
+            "creator": "David Benioff, D.B. Weiss",
+            "imdb_score": "9.3"
+        },
+        {
+            "title": "Rick and Morty ",
+            "genre": ["Animation", "Adventure", "Comedy"],
+            "image": "https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "creator": "Dan Harmon, Justin Roiland",
+            "imdb_score": "9.2"
+        },
+        {
+            "title": "Sherlock",
+            "genre": ["Crime", "Drama", "Mystery"],
+            "image": "https://m.media-amazon.com/images/M/MV5BMWY3NTljMjEtYzRiMi00NWM2LTkzNjItZTVmZjE0MTdjMjJhL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTQ4NTc5OTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "creator": "Mark Gatiss, Steven Moffat",
+            "imdb_score": "9.1"
+        },
+        {
+            "title": "Sahsiyet",
+            "genre": ["Crime", "Drama", "Mystery"],
+            "image": "https://m.media-amazon.com/images/M/MV5BOTJkNzJmYzgtZTZmNC00MTQ2LWE2ZGQtM2EyYjliNGViMTY5XkEyXkFqcGdeQXVyNDg4MjkzNDk@._V1_UY268_CR4,0,182,268_AL_.jpg",
+            "creator": "Puhu TV",
+            "imdb_score": "9.1"
+        },
+        {
+            "title": "Cowboy Bebop",
+            "genre": ["Animation", "Action", "Adventure"],
+            "image": "https://m.media-amazon.com/images/M/MV5BNGNlNjBkODEtZThlOC00YzUxLWI0MjMtMjk3YzJmMDFlNWZlXkEyXkFqcGdeQXVyNjI0MDg2NzE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "creator": "Hajime Yatate",
+            "imdb_score": "8.9"
+        },
+        {
+            "title": "Black Mirror",
+            "genre": ["Drama", "Sci-Fi", "Thriller"],
+            "image": "https://m.media-amazon.com/images/M/MV5BYTM3YWVhMDMtNjczMy00NGEyLWJhZDctYjNhMTRkNDE0ZTI1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "creator": "Charlie Brooker",
+            "imdb_score": "8.8"
+        },
+        {
+            "title": "Narcos",
+            "genre": ["Biography", "Crime", "Drama"],
+            "image": "https://m.media-amazon.com/images/M/MV5BNmFjODU3YzgtMGUwNC00ZGI3LWFkZjQtMjkxZDc3NmQ1MzcyXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "creator": "Carlo Bernard, Chris Brancato, Doug Miro, Paul Eckstein",
+            "imdb_score": "8.8"
+        },
+        {
+            "title": "Stranger Things ",
+            "genre": ["Drama", "Fantasy", "Horror"],
+            "image": "https://m.media-amazon.com/images/M/MV5BMjEzMDAxOTUyMV5BMl5BanBnXkFtZTgwNzAxMzYzOTE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "creator": "Matt Duffer, Ross Duffer",
+            "imdb_score": "8.8"
+        }
+    ],
+    "muzik": [
+        {
+            "title": "Save Yourself",
+            "artist": "Kaleo",
+            "album": "A/B",
+            "img": "https://images.genius.com/b5155b063e38b4c8e15a5a22b9b3d4ee.1000x1000x1.jpg",
+            "genre": ["Rock"]
+        },
+        {
+            "title": "Layla",
+            "artist": "Derek and the Dominos",
+            "album": "Layla and Other Assorted Love Songs",
+            "img": "https://upload.wikimedia.org/wikipedia/en/a/a7/LaylaCover.jpg",
+            "genre": ["Blues Rock", "Classic Rock"]
+        },
+        {
+            "title": "The Trooper",
+            "artist": "Iron Maiden",
+            "album": "Live After Death",
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/The_Trooper_song_cover.jpg/220px-The_Trooper_song_cover.jpg",
+            "genre": ["Heavy Metal"]
+        },
+        {
+            "title": "bellyache",
+            "artist": "Billi Eilish",
+            "album": "Don't Smile at Me",
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Bellyache_%28Official_Single_Cover%29_by_Billie_Eilish.png/220px-Bellyache_%28Official_Single_Cover%29_by_Billie_Eilish.png",
+            "genre": ["Electropop", "R&B"]
+        },
+        {
+            "title": "Black Suit",
+            "artist": "Super Junior",
+            "album": "Play",
+            "img": "https://upload.wikimedia.org/wikipedia/en/4/49/Super_Junior_-_PLAY.jpg",
+            "genre": ["K-pop"]
+        },
+        {
+            "title": "The Thrill is Gone",
+            "artist": "B.B. King",
+            "album": "Completely Well",
+            "img": "https://img.discogs.com/ZUw1NXTSaOlTrsitn1Ce9MZ0iZM=/fit-in/600x598/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6031230-1409276893-6346.jpeg.jpg",
+            "genre": ["Soul Blues", "R&B"]
+        },
+        {
+            "title": "Étude Op. 25, No. 11 (Winter Wind)",
+            "artist": "Frédéric Chopin",
+            "album": "Études (Chopin)",
+            "img": "https://mp3semticdn.com/mp3_images/Klasik-Muzik-Frederic-Chopin.jpg",
+            "genre": ["Classical"]
+        },
+        {
+            "title": "Helvegen",
+            "artist": "Warduna",
+            "album": "Runaljod - Yggdrasil",
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Runaljod_-_Yggdrasil.jpg/220px-Runaljod_-_Yggdrasil.jpg",
+            "genre": ["Nordic Folk", "Ambient", "Dark Folk"]
+        },
+        {
+            "title": "Sevenler Ağlarmış",
+            "artist": "3 Hürel",
+            "album": "Hürel Arşivi",
+            "img": "https://upload.wikimedia.org/wikipedia/tr/thumb/c/cf/1974_-_3_H%C3%BCrel_-_H%C3%BCrel_Ar%C5%9Fivi.jpg/250px-1974_-_3_H%C3%BCrel_-_H%C3%BCrel_Ar%C5%9Fivi.jpg",
+            "genre": ["Anatolian Rock"]
+        },
+        {
+            "title": "Without Me",
+            "artist": "Eminem",
+            "album": "The Eminem Show",
+            "img": "https://upload.wikimedia.org/wikipedia/tr/thumb/a/ad/Eminem_-_Without_Me_CD_cover.jpg/250px-Eminem_-_Without_Me_CD_cover.jpg",
+            "genre": ["Hip hop"]
+        }
+    ]
+}

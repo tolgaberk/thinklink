@@ -1,16 +1,31 @@
-const monkey = require("node-monkey")({ server: { attachOnStart: true } });
-const express = require("express");
+//@ts-check
+// enable browser console
+require("node-monkey")({
+  server: { attachOnStart: true },
+  dataDir: "./nodemonkey",
+  silent: true,
+});
+
+// enable reading from dotenv
+require("dotenv").config();
+
+const applyMiddleWares = require("./middlewares");
+const useRoutes = require("./routes");
+const mongoose = require("mongoose");
+const musics = require("./dummy_data/musics");
+const MusicModel = require("./models/MusicModel");
+
+mongoose.connect(process.env.MONGO_DB_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
+
 const app = require("express")();
-const server = require("http").Server(app);
-const morgan = require("morgan");
-const socket = require("socket.io");
-const io = socket(server);
 
-app.use(morgan("tiny"));
-app.use(express.static("test"));
+applyMiddleWares(app);
 
-server.listen(80, "0.0.0.0");
+useRoutes(app);
 
-io.on("connection", (socket) => {
-  console.log(socket.id);
+app.listen(process.env.PORT || 3000, () => {
+  console.log(`Listening on ${process.env.PORT || 3000}`);
 });
