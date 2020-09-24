@@ -9,11 +9,11 @@ require("node-monkey")({
 // enable reading from dotenv
 require("dotenv").config();
 
-const applyMiddleWares = require("./middlewares");
-const useRoutes = require("./routes");
+const applyMiddleWares = require("./src/middlewares");
+const useRoutes = require("./src/routes");
 const mongoose = require("mongoose");
 const musics = require("./dummy_data/musics");
-const MusicModel = require("./models/MusicModel");
+const MusicModel = require("./src/models/MusicModel");
 
 mongoose.connect(process.env.MONGO_DB_URI, {
   useNewUrlParser: true,
