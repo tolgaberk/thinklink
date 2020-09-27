@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "dev": "nodemon server.js",
     "postinstall": "patch-package"
   },
   "dependencies": {

@@ -12,12 +12,12 @@ require("dotenv").config();
 const applyMiddleWares = require("./src/middlewares");
 const useRoutes = require("./src/routes");
 const mongoose = require("mongoose");
-const musics = require("./dummy_data/musics");
-const MusicModel = require("./src/models/MusicModel");
+const Dummies = require("./src/helpers/saveDummyData");
 
 mongoose.connect(process.env.MONGO_DB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
+  useCreateIndex: true,
 });
 
 const app = require("express")();

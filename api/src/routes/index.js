@@ -1,4 +1,5 @@
 const BookRoute = require("./BookRoute");
+const MatchRoute = require("./MatchRoute");
 const MovieRoute = require("./MovieRoute");
 const MusicRoute = require("./MusicRoute");
 const SerieRoute = require("./SerieRoute");
@@ -10,6 +11,7 @@ const useRoutes = function (app) {
   app.use("/movie", MovieRoute);
   app.use("/serie", SerieRoute);
   app.use("/music", MusicRoute);
+  app.use("/match", MatchRoute);
 };
 
 module.exports = useRoutes;

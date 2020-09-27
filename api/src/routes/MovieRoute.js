@@ -3,8 +3,8 @@ const MovieController = require("../controllers/MovieController");
 const MovieRoute = express.Router();
 
 MovieRoute.get("/", MovieController.getMovie);
-MovieRoute.get("/:movieid", MovieController.getOneMovie);
+MovieRoute.get("/:movieId", MovieController.getOneMovie);
 MovieRoute.post("/", MovieController.createMovie);
 MovieRoute.delete("/", MovieController.deleteMovie);
-MovieRoute.put("/:movieid", MovieController.updateMovie);
+MovieRoute.put("/:movieId", MovieController.updateMovie);
 module.exports = MovieRoute;

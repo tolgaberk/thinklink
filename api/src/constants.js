@@ -1,0 +1,5 @@
+const CONSTANTS = {
+  FAVORITE_MAX_COUNT: 5,
+  LAST_WATCHED_MAX_COUNT: 3,
+};
+module.exports = CONSTANTS;
