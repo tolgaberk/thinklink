@@ -8,7 +8,7 @@ UserRoute.get("/logout/:userId", UserController.logout);
 UserRoute.get("/:userId", UserController.getOneUser);
 UserRoute.post("/", UserController.createUser);
 UserRoute.post("/login", UserController.login);
-UserRoute.delete("/", UserController.deleteUser);
+UserRoute.delete("/:email", UserController.deleteUser);
 UserRoute.put("/:userId", UserController.updateUser);
 
 UserRoute.use(UserFavoriteRoute);

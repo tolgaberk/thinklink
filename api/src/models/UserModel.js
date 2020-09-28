@@ -5,11 +5,14 @@ const UserSchema = Schema(
   {
     name: { type: String, required: true, minLength: 3 },
     email: { type: String, required: true, unique: true },
+    password: { type: String, required: true },
+    isPremium: { type: Boolean, required: true, default: false },
+    isLoggedIn: { type: Boolean, required: true, default: false },
+    dateOfBirth: { type: Date, required: true },
     phone: { type: String },
     gender: { type: String, enum: ["Male", "Female", "Other"] },
-    dateOfBirth: { type: Date, required: true },
     nickname: { type: String },
-    profileImage: { type: String },
+    profileImage: { type: String, default: "/images/defaultPP.png" },
     nation: { type: String },
     lastReadBooks: [{ type: Schema.Types.ObjectId, ref: "book" }],
     lastWatchedMovies: [{ type: Schema.Types.ObjectId, ref: "movie" }],
@@ -22,6 +25,7 @@ const UserSchema = Schema(
     sentMatchingRequests: { type: Number },
     receivedMatchingRequests: { type: Number },
     activeMessagingUsers: [{ type: Schema.Types.ObjectId, ref: "user" }],
+    token: { type: String },
   },
   { timestamps: true }
 );

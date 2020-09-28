@@ -111,14 +111,7 @@ const LAST_ENTITY_ROUTES = [
     entity: ENTITIES.LAST_WATCHED_SERIES,
   },
 ];
-const UserFavoriteController = {
-  addToLastReadBooks: NOT_IMPLEMENTED,
-  removeFromLastReadBooks: NOT_IMPLEMENTED,
-  addToLastWatchedMovies: NOT_IMPLEMENTED,
-  removeFromLastWatchedMovies: NOT_IMPLEMENTED,
-  addToLastWatchedSeries: NOT_IMPLEMENTED,
-  removeFromLastWatchedSeries: NOT_IMPLEMENTED,
-};
+const UserFavoriteController = {};
 
 LAST_ENTITY_ROUTES.map(({ name, process, entity, param }) => {
   UserFavoriteController[name] = async function (req, res) {

@@ -13,8 +13,9 @@ const applyMiddleWares = require("./src/middlewares");
 const useRoutes = require("./src/routes");
 const mongoose = require("mongoose");
 const Dummies = require("./src/helpers/saveDummyData");
+const getEnv = require("./src/helpers/getEnv");
 
-mongoose.connect(process.env.MONGO_DB_URI, {
+mongoose.connect(getEnv("MONGO_DB_URI"), {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
@@ -26,6 +27,6 @@ applyMiddleWares(app);
 
 useRoutes(app);
 
-app.listen(process.env.PORT || 3000, () => {
-  console.log(`Listening on ${process.env.PORT || 3000}`);
+app.listen(getEnv("PORT") || 3000, () => {
+  console.log(`Listening on ${getEnv("PORT") || 3000}`);
 });

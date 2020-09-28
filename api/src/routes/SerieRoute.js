@@ -3,9 +3,9 @@ const SerieController = require("../controllers/SerieController");
 const SerieRoute = express.Router();
 
 SerieRoute.get("/", SerieController.getSerie);
-SerieRoute.get("/:serieid", SerieController.getOneSerie);
+SerieRoute.get("/:serieId", SerieController.getOneSerie);
 SerieRoute.post("/", SerieController.createSerie);
-SerieRoute.delete("/", SerieController.deleteSerie);
-SerieRoute.put("/:serieid", SerieController.updateSerie);
+SerieRoute.delete("/:serieId", SerieController.deleteSerie);
+SerieRoute.put("/:serieId", SerieController.updateSerie);
 
 module.exports = SerieRoute;
