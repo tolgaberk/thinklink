@@ -9,10 +9,9 @@ require("node-monkey")({
 // enable reading from dotenv
 require("dotenv").config();
 
-const applyMiddleWares = require("./src/middlewares");
+const { applyMiddleWares } = require("./src/middlewares");
 const useRoutes = require("./src/routes");
 const mongoose = require("mongoose");
-const Dummies = require("./src/helpers/saveDummyData");
 const getEnv = require("./src/helpers/getEnv");
 
 mongoose.connect(getEnv("MONGO_DB_URI"), {
