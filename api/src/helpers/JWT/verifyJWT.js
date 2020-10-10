@@ -1,6 +1,6 @@
 //@ts-check
 const getEnv = require("../getEnv");
-const jsonwebtoken = require("jsonwebtoken");
+const JWT = require("jsonwebtoken");
 module.exports = function verifyJWT(token) {
-  return jsonwebtoken.verify(token, getEnv("JWT_SECRET"));
+  return JWT.verify(token, getEnv("JWT_SECRET"));
 };
