@@ -10,5 +10,4 @@ function getEnv(key) {
     throw new Error("Couldn't find " + key + " in environment");
   }
 }
-
 module.exports = getEnv;

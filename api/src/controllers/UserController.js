@@ -6,6 +6,7 @@ const Bcrypt = require("bcrypt");
 const getEnv = require("../helpers/getEnv");
 const ErrorCodes = require("../helpers/errors");
 const { generateJWT } = require("../helpers/JWT");
+
 const UserController = {
   createUser: async function (req, res, next) {
     try {
